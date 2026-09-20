@@ -1,0 +1,14 @@
+baseURL = 'https://nightnoryu.github.io/'
+defaultContentLanguage = 'en'
+defaultContentLanguageInSubdir = false
+
+enableRobotsTXT = true
+enableEmoji = true
+
+[languages.en]
+  locale = 'en-US'
+  title = 'nightnoryu - Portfolio'
+
+[languages.ru]
+  locale = 'ru-RU'
+  title = 'nightnoryu - Portfolio'
