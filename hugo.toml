@@ -4,11 +4,27 @@ defaultContentLanguageInSubdir = false
 
 enableRobotsTXT = true
 enableEmoji = true
+disableKinds = ['taxonomy', 'term']
+
+[params]
+  author = 'nightnoryu 🌿'
+  github = 'https://github.com/nightnoryu'
+
+[pagination]
+  pagerSize = 10
 
 [languages.en]
+  label = 'English'
+  weight = 1
   locale = 'en-US'
   title = 'nightnoryu - Portfolio'
+  [languages.en.params]
+    description = 'Open-source projects by nightnoryu.'
 
 [languages.ru]
+  label = 'Русский'
+  weight = 2
   locale = 'ru-RU'
   title = 'nightnoryu - Portfolio'
+  [languages.ru.params]
+    description = 'Открытые проекты nightnoryu.'
