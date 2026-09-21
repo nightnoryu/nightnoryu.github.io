@@ -8,6 +8,7 @@ disableKinds = ['taxonomy', 'term']
 
 [params]
   author = 'nightnoryu 🌿'
+  telegram = 'https://t.me/nightnoryu'
   github = 'https://github.com/nightnoryu'
 
 [pagination]

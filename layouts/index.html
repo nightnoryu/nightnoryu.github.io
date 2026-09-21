@@ -3,7 +3,9 @@
 <section class="hero" aria-labelledby="intro-title">
   <h1 id="intro-title">{{ .Title }}</h1>
   <div class="intro-copy">{{ .Content }}</div>
-  <a class="text-link" href="{{ .Site.Params.github }}">GitHub <span aria-hidden="true">↗</span></a>
+  <a class="text-link" href="{{ .Site.Params.telegram }}" target="_blank">Telegram <span aria-hidden="true">↗</span></a>
+  <br>
+  <a class="text-link" href="{{ .Site.Params.github }}" target="_blank">GitHub <span aria-hidden="true">↗</span></a>
 </section>
 
 <section id="projects" class="projects-section" aria-labelledby="projects-title">
@@ -11,7 +13,7 @@
   <div class="project-list">
     {{ range hugo.Data.projects.projects }}
     <article class="project">
-      <h3>{{ if .url }}<a href="{{ .url }}">{{ .name }} ↗</a>{{ else }}{{ .name }}{{ end }}</h3>
+      <h3>{{ if .url }}<a href="{{ .url }}" target="_blank">{{ .name }} ↗</a>{{ else }}{{ .name }}{{ end }}</h3>
       <p>{{ index .description $.Language.Lang }}</p>
       <div class="tags">{{ range .tags }}<span>{{ . }}</span>{{ end }}</div>
       {{ if not .url }}<span class="placeholder-label">{{ i18n "placeholder" }}</span>{{ end }}
