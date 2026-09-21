@@ -14,3 +14,7 @@ hugo new content posts/my-post.ru.md
 Matching filenames identify translations automatically. Posts may be published in just one language; the language switch falls back to the other language's homepage when no translation exists.
 
 RSS feeds are available at `/posts/index.xml` and `/ru/posts/index.xml`.
+
+## 📜 License
+
+Distributed under the MIT License. See [License](/LICENSE) for more information.
