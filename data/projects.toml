@@ -1,0 +1,8 @@
+[[projects]]
+name = 'anon3anon'
+url = 'https://github.com/nightnoryu/anon3anon'
+tags = ['telegram', 'bot', 'golang']
+description = {
+  en = 'Telegram bot for anonymous messages - write both ways with features like link revocation and blocking of anonymous senders. Easily deployed on your machine with docker / k8s.',
+  ru = 'Телеграм-бот для анонимных сообщений - общение в обе стороны с поддержкой обновления ссылки и блокировки анонимных отправителей. Легко разворачивается на вашем устройстве через docker / k8s.'
+}

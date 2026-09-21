@@ -1,0 +1,15 @@
+<header class="site-header">
+  <a class="wordmark" href="{{ .Site.Home.RelPermalink }}">{{ .Site.Params.author }}</a>
+  <nav aria-label="{{ i18n "navigation" }}">
+    <a href="{{ .Site.Home.RelPermalink }}#projects">{{ i18n "projects" }}</a>
+    {{ with .Site.GetPage "/posts" }}<a href="{{ .RelPermalink }}"{{ if eq $.Section "posts" }} aria-current="page"{{ end }}>{{ i18n "blog" }}</a>{{ end }}
+    <div class="languages" aria-label="{{ i18n "language" }}">
+      {{ $current := . }}
+      {{ range hugo.Sites }}
+        {{ $target := .Home }}
+        {{ range $current.AllTranslations }}{{ if eq .Language.Lang $target.Language.Lang }}{{ $target = . }}{{ end }}{{ end }}
+        <a href="{{ $target.RelPermalink }}" lang="{{ .Language.Lang }}" hreflang="{{ .Language.Lang }}" aria-label="{{ .Language.Label }}"{{ if eq $current.Language.Lang .Language.Lang }} aria-current="true"{{ end }}>{{ upper .Language.Lang }}</a>
+      {{ end }}
+    </div>
+  </nav>
+</header>

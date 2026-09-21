@@ -1,0 +1,8 @@
+{{ define "main" }}
+<section class="page-section">
+  <h1>{{ .Title }}</h1>
+  <div class="intro-copy">{{ .Content }}</div>
+  {{ range .Paginator.Pages }}{{ partial "post-row.html" . }}{{ else }}<p class="empty-state">{{ i18n "emptyTitle" }}</p>{{ end }}
+  {{ if gt .Paginator.TotalPages 1 }}<nav class="pagination" aria-label="{{ i18n "pagination" }}">{{ with .Paginator.Prev }}<a href="{{ .URL }}">← {{ i18n "newer" }}</a>{{ end }}{{ with .Paginator.Next }}<a href="{{ .URL }}">{{ i18n "older" }} →</a>{{ end }}</nav>{{ end }}
+</section>
+{{ end }}
