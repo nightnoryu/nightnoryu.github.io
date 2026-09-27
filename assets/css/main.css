@@ -51,8 +51,7 @@ a:focus-visible {
 
 h1,
 h2,
-h3,
-p {
+h3 {
   margin-top: 0;
 }
 
@@ -78,6 +77,10 @@ h2 {
 h3 {
   font-size: 16px;
   margin-bottom: 7px;
+}
+
+p {
+  margin-top: 4px;
 }
 
 /* Shared layout */
