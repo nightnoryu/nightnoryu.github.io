@@ -156,6 +156,38 @@ h3 {
   margin-bottom: 0;
 }
 
+.social-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.social-links a {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 7px 11px;
+  border: 1px solid var(--line);
+  border-radius: 6px;
+  background: var(--soft);
+  color: var(--green);
+  font-family: var(--mono);
+  font-size: 12px;
+  line-height: 1.4;
+  text-decoration: none;
+}
+
+.social-links a:hover {
+  border-color: var(--brown);
+  color: var(--brown);
+}
+
+.social-links svg {
+  width: 15px;
+  height: 15px;
+  flex: none;
+}
+
 .projects-section {
   padding-bottom: 20px;
 }
