@@ -3,8 +3,8 @@ name = 'anon3anon'
 url = 'https://github.com/nightnoryu/anon3anon'
 tags = ['telegram', 'bot', 'golang']
 description = {
-  en = 'Telegram bot for anonymous messages - write both ways with features like link revocation and blocking of anonymous senders. Easily deployed on your machine with docker / k8s.',
-  ru = 'Телеграм-бот для анонимных сообщений - общение в обе стороны с поддержкой обновления ссылки и блокировки анонимных отправителей. Легко разворачивается на вашем устройстве через docker / k8s.'
+  en = 'Telegram bot for anonymous messages.',
+  ru = 'Телеграм-бот для анонимных сообщений.'
 }
 
 [[projects]]
@@ -21,6 +21,6 @@ name = 'teamcity-monitor'
 url = 'https://github.com/nightnoryu/teamcity-monitor'
 tags = ['teamcity', 'monitoring', 'golang', 'typescript', 'react']
 description = {
-  en = 'Self-hosted dashboard for monitoring TeamCity in terms of environments instead of individual builds.',
-  ru = 'Self-hosted дашборд для мониторинга TeamCity в контексте окружений, а не отдельных билдов.'
+  en = 'Dashboard for monitoring TeamCity environments rather than individual builds.',
+  ru = 'Дашборд для мониторинга окружений TeamCity, а не отдельных билдов.'
 }
