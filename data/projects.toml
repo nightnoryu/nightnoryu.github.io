@@ -8,6 +8,15 @@ description = {
 }
 
 [[projects]]
+name = 'lumio'
+url = 'https://github.com/nightnoryu/lumio'
+tags = ['photography', 'golang', 'typescript', 'react']
+description = {
+  en = 'Portfolio website builder for photographers.',
+  ru = 'Конструктор сайта-портфолио для фотографов.'
+}
+
+[[projects]]
 name = 'teamcity-monitor'
 url = 'https://github.com/nightnoryu/teamcity-monitor'
 tags = ['teamcity', 'monitoring', 'golang', 'typescript', 'react']
