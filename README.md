@@ -3,6 +3,14 @@
 A minimal bilingual Hugo portfolio with a blog, RSS feeds, and no JavaScript
 or external font dependencies.
 
+## ⚒️ Local development
+
+Install [mise](https://mise.jdx.dev). Start the local preview with:
+
+```shell
+mise run dev
+```
+
 ## 📝 Blog posts
 
 Create a post with:
