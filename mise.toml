@@ -1,0 +1,17 @@
+[tools]
+hugo = "0.166"
+
+[tasks.dev]
+run = "hugo server"
+
+[tasks.build]
+run = "hugo --gc --minify"
+
+[tasks.post]
+usage = """
+arg <name> help="Post name"
+"""
+run = """
+hugo new content posts/$usage_name.en.md
+hugo new content posts/$usage_name.ru.md
+"""
