@@ -19,8 +19,8 @@ description = {
 [[projects]]
 name = 'teamcity-monitor'
 url = 'https://github.com/nightnoryu/teamcity-monitor'
-tags = ['teamcity', 'monitoring', 'golang', 'typescript', 'react']
+tags = ['monitoring', 'golang', 'typescript', 'react']
 description = {
-  en = 'Dashboard for monitoring TeamCity environments rather than individual builds.',
-  ru = 'Дашборд для мониторинга окружений TeamCity, а не отдельных билдов.'
+  en = 'Dashboard for monitoring TeamCity environments.',
+  ru = 'Дашборд для мониторинга окружений TeamCity.'
 }
