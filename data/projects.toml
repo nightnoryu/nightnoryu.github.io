@@ -1,10 +1,10 @@
 [[projects]]
-name = 'anon3anon'
-url = 'https://github.com/nightnoryu/anon3anon'
-tags = ['telegram', 'bot', 'golang']
+name = 'tesseract'
+url = 'https://github.com/nightnoryu/tesseract'
+tags = ['business-intelligence', 'golang', 'typescript', 'react']
 description = {
-  en = 'Telegram bot for anonymous messages.',
-  ru = 'Телеграм-бот для анонимных сообщений.'
+  en = 'BI platform with built-in semantic engine.',
+  ru = 'BI платформа со встроенным семантическим движком.'
 }
 
 [[projects]]
@@ -14,6 +14,15 @@ tags = ['photography', 'golang', 'typescript', 'react']
 description = {
   en = 'Portfolio website builder for photographers.',
   ru = 'Конструктор сайта-портфолио для фотографов.'
+}
+
+[[projects]]
+name = 'anon3anon'
+url = 'https://github.com/nightnoryu/anon3anon'
+tags = ['telegram', 'bot', 'golang']
+description = {
+  en = 'Telegram bot for anonymous messages.',
+  ru = 'Телеграм-бот для анонимных сообщений.'
 }
 
 [[projects]]
