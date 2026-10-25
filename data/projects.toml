@@ -1,13 +1,4 @@
 [[projects]]
-name = 'tesseract'
-url = 'https://github.com/nightnoryu/tesseract'
-tags = ['business-intelligence', 'golang', 'typescript', 'react']
-description = {
-  en = 'BI platform with built-in semantic engine.',
-  ru = 'BI платформа со встроенным семантическим движком.'
-}
-
-[[projects]]
 name = 'lumio'
 url = 'https://github.com/nightnoryu/lumio'
 tags = ['photography', 'golang', 'typescript', 'react']
